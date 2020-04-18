@@ -1,6 +1,6 @@
 [package]
 name = "josh_hates_closures"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sean Klein <seanmarionklein@gmail.com>"]
 license = "MIT"
 description = "A useless, anti-closure expression macro"
