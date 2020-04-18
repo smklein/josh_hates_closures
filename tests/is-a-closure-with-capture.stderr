@@ -1,0 +1,7 @@
+error: DON'T NEED NO STINKEN LAMBDA
+ --> $DIR/is-a-closure-with-capture.rs:7:13
+  |
+7 |     let _ = #[not_a_closure] |a| { format!("hi: {}", a) };
+  |             ^^^^^^^^^^^^^^^^
+  |
+  = note: this error originates in an attribute macro (in Nightly builds, run with -Z macro-backtrace for more info)

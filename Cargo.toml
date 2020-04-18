@@ -3,7 +3,20 @@ name = "josh_hates_closures"
 version = "0.1.0"
 authors = ["Sean Klein <seanmarionklein@gmail.com>"]
 edition = "2018"
+autotests = false
+
+[lib]
+proc-macro = true
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+syn = { version = "1.0.17", features = ["full"] }
+quote = "1.0.3"
+
+[[test]]
+name = "tests"
+path = "tests/all.rs"
+
+[dev-dependencies]
+trybuild = "1.0"
