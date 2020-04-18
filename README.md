@@ -1,6 +1,6 @@
 # Josh Hates Closures
 
-![](https://github.com/smklein/josh_hates_closures/workflows/rust/badge.svg)
+![](https://github.com/smklein/josh_hates_closures/workflows/Rust/badge.svg)
 
 Josh doesn't like closures, so I made an attribute which you can
 apply to closures. If you use this attribute on a closure, this
