@@ -2,7 +2,7 @@
 name = "josh_hates_closures"
 version = "0.1.0"
 authors = ["Sean Klein <seanmarionklein@gmail.com>"]
-license-file = "LICENSE"
+license = "MIT"
 description = "A useless, anti-closure expression macro"
 repository = "https://github.com/smklein/josh_hates_closures"
 edition = "2018"
